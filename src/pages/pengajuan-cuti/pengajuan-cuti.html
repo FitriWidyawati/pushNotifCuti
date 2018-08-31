@@ -1,0 +1,131 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Pengajuan Cuti
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page4" style="background-color:#7CD7CD;">
+  <div id="pengajuanCuti-markdown8" class="show-list-numbers-and-dots">
+    <p style="color:#000000;">
+      Yang mengajukan dibawah ini:
+    </p>
+  </div>
+  <div class="spacer" style="width:300px;height:10px;" id="pengajuanCuti-spacer22"></div>
+  <form id="pengajuanCuti-form7">
+    <ion-item id="pengajuanCuti-input12">
+      <ion-label>
+        Nama
+      </ion-label>
+      <ion-input type="text" placeholder=""></ion-input>
+    </ion-item>
+    <div class="spacer" style="width:300px;height:10px;" id="pengajuanCuti-spacer23"></div>
+    <ion-item id="pengajuanCuti-input13">
+      <ion-label>
+        NIP
+      </ion-label>
+      <ion-input type="number" placeholder=""></ion-input>
+    </ion-item>
+    <div class="spacer" style="width:300px;height:10px;" id="pengajuanCuti-spacer24"></div>
+    <ion-item id="pengajuanCuti-input14">
+      <ion-label>
+        Pangkat / Golongan Ruang
+      </ion-label>
+      <ion-input type="text" placeholder=""></ion-input>
+    </ion-item>
+    <div class="spacer" style="width:300px;height:10px;" id="pengajuanCuti-spacer25"></div>
+    <ion-item id="pengajuanCuti-input15">
+      <ion-label>
+        Jabatan
+      </ion-label>
+      <ion-input type="text" placeholder=""></ion-input>
+    </ion-item>
+    <div class="spacer" style="width:300px;height:10px;" id="pengajuanCuti-spacer26"></div>
+    <ion-item id="pengajuanCuti-input16">
+      <ion-label>
+        Unit Kerja
+      </ion-label>
+      <ion-input type="text" placeholder=""></ion-input>
+    </ion-item>
+    <div class="spacer" style="width:300px;height:10px;" id="pengajuanCuti-spacer29"></div>
+    <div id="pengajuanCuti-markdown9" class="show-list-numbers-and-dots">
+      <p style="color:#000000;">
+        Dengan ini mengajukan permohonan cuti sebagai berikut:
+      </p>
+    </div>
+    <div class="spacer" style="width:300px;height:10px;" id="pengajuanCuti-spacer27"></div>
+    <ion-item id="pengajuanCuti-select2">
+      <ion-label>
+        Jenis Cuti
+      </ion-label>
+      <ion-select name="">
+        <ion-option>
+          Cuti Tahunan
+        </ion-option>
+        <ion-option>
+          Cuti Besar
+        </ion-option>
+        <ion-option>
+          Cuti Sakit
+        </ion-option>
+        <ion-option>
+          Cuti Bersalin
+        </ion-option>
+        <ion-option>
+          Cuti Alasan Penting
+        </ion-option>
+      </ion-select>
+    </ion-item>
+    <div class="spacer" style="width:300px;height:10px;" id="pengajuanCuti-spacer30"></div>
+    <div id="pengajuanCuti-markdown10" class="show-list-numbers-and-dots">
+      <p style="color:#000000;">
+        Lama Cuti
+      </p>
+    </div>
+    <div class="spacer" style="width:300px;height:10px;" id="pengajuanCuti-spacer31"></div>
+    <ion-item id="pengajuanCuti-input17">
+      <ion-label>
+        Masukan dalam angka
+      </ion-label>
+      <ion-input type="number" placeholder=""></ion-input>
+    </ion-item>
+    <div class="spacer" style="width:300px;height:10px;" id="pengajuanCuti-spacer28"></div>
+    <div id="pengajuanCuti-markdown11" class="show-list-numbers-and-dots">
+      <p style="color:#000000;">
+        Mulai Tanggal
+      </p>
+    </div>
+    <div class="spacer" style="width:300px;height:10px;" id="pengajuanCuti-spacer32"></div>
+    <ion-item id="pengajuanCuti-input18">
+      <ion-label></ion-label>
+      <ion-input type="date" placeholder=""></ion-input>
+    </ion-item>
+    <div class="spacer" style="width:300px;height:10px;" id="pengajuanCuti-spacer33"></div>
+    <div id="pengajuanCuti-markdown12" class="show-list-numbers-and-dots">
+      <p style="color:#000000;">
+        s/d dengan
+      </p>
+    </div>
+    <div class="spacer" style="width:300px;height:10px;" id="pengajuanCuti-spacer34"></div>
+    <ion-item id="pengajuanCuti-input20">
+      <ion-label></ion-label>
+      <ion-input type="date" placeholder=""></ion-input>
+    </ion-item>
+    <div class="spacer" style="width:300px;height:10px;" id="pengajuanCuti-spacer35"></div>
+    <div id="pengajuanCuti-markdown13" class="show-list-numbers-and-dots">
+      <p style="color:#000000;">
+        Dengan permohonan ini saya buat untuk dapat dipertimbangkan sebagai mana mestinya.
+      </p>
+    </div>
+    <div class="spacer" style="width:300px;height:10px;" id="pengajuanCuti-spacer36"></div>
+    <button id="pengajuanCuti-button6" ion-button color="positive" block (click)='sendNotificationWithActionButtonsAndDeepLink();'>
+     <ion-icon name="paper-plane"></ion-icon>
+      Ajukan Permohonan
+    </button>
+    <div class="spacer" style="width:300px;height:10px;" id="pengajuanCuti-spacer37"></div>
+    <button id="pengajuanCuti-button7" ion-button color="positive" block on-click="goToMonitoringPengajuanCuti()">
+      <ion-icon name="search"></ion-icon>
+      Monitoring Pengajuan Cuti
+    </button>
+  </form>
+</ion-content>
